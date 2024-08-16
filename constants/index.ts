@@ -1,86 +1,86 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: "/", key: "home", label: "Inicio" },
+  { href: "/", key: "how_hilink_work", label: "¿Cómo funciona?" },
+  { href: "/", key: "services", label: "Servicios" },
+  { href: "/", key: "pricing ", label: "Precios" },
+  { href: "/", key: "contact_us", label: "Contáctenos" },
 ];
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+  "/person-1.png",
+  "/person-2.png",
+  "/person-3.png",
+  "/person-4.png",
 ];
 
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
+    title: "Los mapas se pueden acceder sin conexión",
+    icon: "/map.svg",
+    variant: "green",
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      "Proporcionamos una solución para que usted pueda utilizar nuestra aplicación al escalar, sí mapas fuera de línea que puede utilizar en cualquier momento no hay señal en el lugar",
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
+    title: "Establecer un calendario de aventuras",
+    icon: "/calendar.svg",
+    variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Programe una aventura con amigos. En vacaciones, hay muchas ofertas interesantes de Hilink. Así, no hay más discusión",
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
+    title: "Tecnología que utiliza realidad aumentada",
+    icon: "/tech.svg",
+    variant: "green",
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      "La tecnología utiliza la realidad aumentada como guía de su ruta de senderismo por el bosque hasta la cima de la montaña. Ya con el apoyo de la última tecnología sin conexión a Internet.",
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
+    title: "Muchas ubicaciones nuevas cada mes",
+    icon: "/location.svg",
+    variant: "orange",
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      "Muchos lugares nuevos cada mes, porque tenemos una comunidad mundial de escaladores que comparten sus mejores experiencias con la escalada",
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: "Más información",
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      "Acerca de Hilink",
+      "Comunicado de prensa",
+      "Medio ambiente",
+      "Trabajo con nosotros",
+      "Política de privacidad",
+      "Contacto",
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: "Nuestra comunidad",
+    links: ["Escalando cerros", "Subiendo montañas", "Hilink en ek mundo"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: "Contacto",
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: "Admin Officer", value: "123-456-7890" },
+    { label: "Email Officer", value: "hilink@akinthil.com" },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
+  title: "Social",
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
+    "/facebook.svg",
+    "/instagram.svg",
+    "/twitter.svg",
+    "/youtube.svg",
+    "/wordpress.svg",
   ],
 };
